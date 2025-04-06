@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+
+
+:root {
+	--color-primary: #ff0060;
+
+	--color-text: #ffffff;
+	--color-text-button: #000000;
+	--color-accent-success: #339e4b;
+  	--colort-dirt: #62381a
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+.text-color {
+	color: var(--color-text)
+}
+
+.bg-button {
+	background-color: var(--color-text);
+}
+
+.text-input-label {
+	color: var(--color-text)
+}
+
+.text-text {
+	font-family: 'Just Me Again Down Here', cursive;
+}
+
+.text-input {
+	font-family: 'Inter', sans-serif;
+}
+
+.bg-ground {
+  background-color: var(--colort-dirt)
+}
+.text-button {
+	color: var
+}
+
+.bg-image-url {
+    background-image: url('/src/interface/public/static/images/landscape.svg'); /* Make sure this path is correct. */
+    background-size: cover;
+    /* Other background properties if needed */
+  }
